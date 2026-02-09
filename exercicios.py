@@ -30,10 +30,10 @@ import math
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
 
-primeiro_numero = float(input("Digite o primeiro numero flutuante: "))
-segundo_numero = float(input("Digite o segundo numero flutuante: "))
-adicao_numero = primeiro_numero + segundo_numero
-print(f"A adicao dos numeros flutuantes é: {adicao_numero}")
+#primeiro_numero = float(input("Digite o primeiro numero flutuante: "))
+#segundo_numero = float(input("Digite o segundo numero flutuante: "))
+#adicao_numero = primeiro_numero + segundo_numero
+#print(f"A adicao dos numeros flutuantes é: {adicao_numero}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
@@ -72,5 +72,23 @@ print(f"A adicao dos numeros flutuantes é: {adicao_numero}")
 # 21: Conversor de Temperatura
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
+try:
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operador = input("Digite o operador (+, -, *, /): ")
+    if operador == '+':
+        resultado = num1 + num2
+    elif operador == '-':
+        resultado = num1 - num2
+    elif operador == '*':
+        resultado = num1 * num2
+    elif operador == '/' and num2 != 0:
+        resultado = num1 / num2
+    else:
+        print("Operador inválido ou divisão por zero.")
+    print("Resultado:", resultado)
+except ValueError:
+    print("Erro: Entrada inválida. Certifique-se de inserir números.")
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
