@@ -19,15 +19,22 @@ import math
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-primeiro_numero = int(input("Digite o primeiro numero inteiro: "))
-segundo_numero = int(input("Digite o segundo numero inteiro: "))
-divisao_dos_numeros = primeiro_numero // segundo_numero
-print(f"A divisao dos numeros inteiros é: {divisao_dos_numeros}")
+#primeiro_numero = int(input("Digite o primeiro numero inteiro: "))
+#segundo_numero = int(input("Digite o segundo numero inteiro: "))
+#divisao_dos_numeros = primeiro_numero // segundo_numero
+#print(f"A divisao dos numeros inteiros é: {divisao_dos_numeros}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+primeiro_numero = float(input("Digite o primeiro numero flutuante: "))
+segundo_numero = float(input("Digite o segundo numero flutuante: "))
+adicao_numero = primeiro_numero + segundo_numero
+print(f"A adicao dos numeros flutuantes é: {adicao_numero}")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
