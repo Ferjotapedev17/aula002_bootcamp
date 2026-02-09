@@ -11,6 +11,12 @@ import math
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+primeiro_numero = int(input("Digite o primeiro numero: "))
+segundo_numero = int(input("Digite o segundo numero: "))
+resultado = primeiro_numero * segundo_numero
+print(f"O resultado da conta é {resultado}")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -33,11 +39,11 @@ import math
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data_do_usuário = input("Insira a data no formato dd/mm/aaaa: ")
-lista_de_dia_mes_ano = data_do_usuário.split("/")
-print(f"O elemento 1 é o: {lista_de_dia_mes_ano(0)}")
-print(f"O elemento 2 é o: {lista_de_dia_mes_ano(1)}")
-print(f"O elemento 3 é o: {lista_de_dia_mes_ano(2)}")
+#data_do_usuário = input("Insira a data no formato dd/mm/aaaa: ")
+#lista_de_dia_mes_ano = data_do_usuário.split("/")
+#print(f"O elemento 1 é o: {lista_de_dia_mes_ano(0)}")
+#print(f"O elemento 2 é o: {lista_de_dia_mes_ano(1)}")
+#print(f"O elemento 3 é o: {lista_de_dia_mes_ano(2)}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
