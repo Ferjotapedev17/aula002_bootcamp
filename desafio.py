@@ -11,13 +11,19 @@ elif any(caractere.isdigit() for caractere in nome_usuario):
     print("Por favor, digite somente letras")
     exit()
 
-else:
-    print("Nome válido")
-
 
 # 2) Solicita ao usuário que digite o valor do seu salário
 # Converte a entrada para um número de ponto flutuante
-salario_usuario = float(input("Digite o seu salario: "))
+salario_usuario = (input("Digite o seu salario: "))
+
+if len(salario_usuario) == 0:
+    print("Voce nao digitou nada")
+    exit()
+elif not salario_usuario.isdigit():
+    print("Digite apenas numeros para o salário")
+    exit()
+else: 
+    salario_usuario = float(salario_usuario)
 
 # 3) Solicita ao usuário que digite o valor do bônus recebido
 # Converte a entrada para um número de ponto flutuante
